@@ -1,0 +1,20 @@
+<plugin name='glyph-icons' version='0.1' grailsVersion='2.2 &gt; *'>
+  <author>Eric Buitenhuis</author>
+  <authorEmail>ebuitenhuis@lce.com</authorEmail>
+  <title>Glyph Icons from http://glyphicons.com/</title>
+  <description>Encapsulating in a plugin the set of free glyph icons from http://glyphicons.com/
+</description>
+  <documentation>http://grails.org/plugin/glyph-icons</documentation>
+  <type>GlyphIconsGrailsPlugin</type>
+  <resources>
+    <resource>com.glyphicons.grails.plugin.GlyphIconsPluginTagLib</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies />
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
