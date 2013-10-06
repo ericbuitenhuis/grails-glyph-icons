@@ -20,7 +20,7 @@ GLYPHICONS offers a paid version of their icons, which provides a nice variety o
 Generates an `<img/>` tag that will load the icon on the page.
 
 For example, the following will produce an <img/> tag on the page, loading the glyphicons_001_leaf.png icon:
-    `<glyph:icon name="glyphicons_001_leaf"/>`
+    `<glyph:icon iconName="glyphicons_001_leaf"/>`
 
 ### iconName
 The file name of the plugin without the .png extension. For example, `iconName="glyphicons_005_car"` would load the resource from /images/glyphicons/png/glyphicons_005_car.png.
