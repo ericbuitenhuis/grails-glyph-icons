@@ -1,4 +1,4 @@
-package com.glyphicons.grails.plugin
+package com.lce.atg.grails.plugin
 
 import groovy.xml.MarkupBuilder
 

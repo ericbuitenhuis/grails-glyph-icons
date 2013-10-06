@@ -7,7 +7,7 @@
   <documentation>http://grails.org/plugin/glyph-icons</documentation>
   <type>GlyphIconsGrailsPlugin</type>
   <resources>
-    <resource>com.glyphicons.grails.plugin.GlyphIconsPluginTagLib</resource>
+    <resource>com.lce.atg.grails.plugin.GlyphIconsPluginTagLib</resource>
   </resources>
   <repositories>
     <repository name='grailsCentral' url='http://grails.org/plugins' />
