@@ -5,6 +5,8 @@ grails.project.dependency.resolution = {
     log "warn"
     repositories {
         grailsCentral()
+        mavenLocal()
+        mavenCentral()
     }
     plugins {
         build(":release:2.2.1",
