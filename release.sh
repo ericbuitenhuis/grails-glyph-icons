@@ -7,4 +7,4 @@ git clone git@github.com:ericbuitenhuis/grails-glyph-icons
 cd grails-glyph-icons
 grails clean
 grails compile
-grails publish-plugin --noScm
+grails publish-plugin --stacktrace

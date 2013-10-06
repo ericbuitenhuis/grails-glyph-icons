@@ -1,7 +1,5 @@
 package com.lce.atg.grails.plugin
 
-import groovy.xml.MarkupBuilder
-
 class GlyphIconsPluginTagLib {
 
     static namespace = "glyph"
@@ -64,8 +62,7 @@ class GlyphIconsPluginTagLib {
         def link = resource(dir: dir, file: attr.iconName + '.png', plugin: 'glyphicons')
         def alt = attr.alt ?: attr.name
 
-
-        StringBuffer buffer = new StringBuffer()
+        StringBuilder buffer = new StringBuilder()
         buffer.append('<img ')
         buffer.append('src="').append(link).append('" ')
         buffer.append('alt="').append(alt).append('" ')
@@ -77,5 +74,4 @@ class GlyphIconsPluginTagLib {
         }
         buffer.append("/>")
     }
-
 }
